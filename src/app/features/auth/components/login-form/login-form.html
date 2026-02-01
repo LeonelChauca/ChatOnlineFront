@@ -1,14 +1,36 @@
-<main class="flex flex-col gap-1 w-full">
+<form (submit)="onSubmit($event)" class="flex flex-col gap-1 w-full">
   <fieldset class="fieldset w-full">
     <legend class="fieldset-legend text-[15px]">Correo Electronico</legend>
-    <input type="text" class="input w-full" placeholder="Type here" />
-    <p class="label invisible-space">Optional</p>
+    <input
+      type="text"
+      class="input w-full"
+      placeholder="correo@ejemplo.com"
+      [formField]="loginForm.email"
+    />
+    <p class="label text-red-500">
+      @if (loginForm.email().errors() && loginForm.email().touched()) {
+        @for (error of loginForm.email().errors(); track error) {
+          {{ error.message }}
+        }
+      }
+    </p>
   </fieldset>
 
   <fieldset class="fieldset w-full">
     <legend class="fieldset-legend text-[15px]">Contraseña</legend>
-    <input type="password" class="input w-full" placeholder="Type here" />
-    <p class="label invisible-space">Optional</p>
+    <input
+      type="password"
+      class="input w-full"
+      placeholder="********"
+      [formField]="loginForm.password"
+    />
+    <p class="label text-red-500">
+      @if (loginForm.password().errors() && loginForm.password().touched()) {
+        @for (error of loginForm.password().errors(); track error) {
+          {{ error.message }}
+        }
+      }
+    </p>
   </fieldset>
   <div class="flex justify-between items-center">
     <fieldset class="fieldset">
@@ -26,4 +48,4 @@
       <a class="link link-hover text-blue-700">Regístrate</a>
     </p>
   </div>
-</main>
+</form>
