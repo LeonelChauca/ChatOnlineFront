@@ -1,0 +1,138 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.4.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "chat-online-front": [
+        {
+          "file": ".editorconfig",
+          "hash": "4165385352547808172"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "2385463205013933425"
+        },
+        {
+          "file": ".postcssrc.json",
+          "hash": "3238241118719959164"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "5331566439708925252"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17038929134016848735"
+        },
+        {
+          "file": ".vscode/mcp.json",
+          "hash": "18312290508764663119"
+        },
+        {
+          "file": ".vscode/settings.json",
+          "hash": "7668319554842279813"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "1370608409982315224"
+        },
+        {
+          "file": "README.md",
+          "hash": "4215657106869025913"
+        },
+        {
+          "file": "angular.json",
+          "hash": "14573296248464548204"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "5896719965953218074"
+        },
+        {
+          "file": "package.json",
+          "hash": "18006608322687785667"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "src/app/app.config.ts",
+          "hash": "2231130204567329230"
+        },
+        {
+          "file": "src/app/app.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/app.html",
+          "hash": "17816966185630879015"
+        },
+        {
+          "file": "src/app/app.routes.ts",
+          "hash": "8087998811348863658"
+        },
+        {
+          "file": "src/app/app.ts",
+          "hash": "4895583658881094349"
+        },
+        {
+          "file": "src/app/features/auth/Layout/auth-layout/auth-layout.css",
+          "hash": "13027103444035360129"
+        },
+        {
+          "file": "src/app/features/auth/Layout/auth-layout/auth-layout.html",
+          "hash": "12790785320675529731"
+        },
+        {
+          "file": "src/app/features/auth/Layout/auth-layout/auth-layout.ts",
+          "hash": "7317563321113545734"
+        },
+        {
+          "file": "src/app/features/auth/auth.routes.ts",
+          "hash": "12503176042418063349"
+        },
+        {
+          "file": "src/app/features/auth/pages/login-page/login-page.css",
+          "hash": "13027103444035360129"
+        },
+        {
+          "file": "src/app/features/auth/pages/login-page/login-page.html",
+          "hash": "6598480032155857235"
+        },
+        {
+          "file": "src/app/features/auth/pages/login-page/login-page.ts",
+          "hash": "18279137116213338853"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "12599955116596427439"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "15944248449879998907"
+        },
+        {
+          "file": "src/styles.css",
+          "hash": "5565351247247307590"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "8369321240499881643"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "5656778633894759594"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "17063073924005338580"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  },
+  "externalNodesHash": "11682720397546433450"
+}
