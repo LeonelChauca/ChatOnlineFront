@@ -35,7 +35,12 @@
   <div class="flex justify-between items-center">
     <fieldset class="fieldset">
       <label class="label text-sm">
-        <input type="checkbox" checked="checked" class="checkbox" />
+        <input
+          type="checkbox"
+          [(ngModel)]="rememberMe"
+          [ngModelOptions]="{ standalone: true }"
+          class="checkbox"
+        />
         Recordar correo
       </label>
     </fieldset>
