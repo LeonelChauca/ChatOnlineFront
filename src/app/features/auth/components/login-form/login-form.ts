@@ -13,6 +13,8 @@ import { AuthService } from '../../../../core/services/auth-service';
 export class LoginForm {
   private authService = inject(AuthService);
 
+  public loading = this.authService.loading;
+
   loginModel = signal<LoginInterface>({
     email: '',
     password: '',
